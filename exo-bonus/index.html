@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="./public/css/style.css"/>
+  <title>exo bonus bootstrap</title>
+</head>
+
+<body>
+  <!-- title of page -->
+  <div class="container-fluid overflow-hidden">
+    <div class="row justify-content-evenly">
+      <div class="col-12 xl-col-12 text-center">
+        <h1 class="fs-4 mt-2 mb-3">Ma première page Bootstrap 5</h1>
+      </div>
+      <!-- end of title page -->
+      <!-- navbar -->
+      <div class="col-12 col-xl-12">
+        <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+          <div class="bg-dark p-4">
+            <h5 class="text-body-emphasis h4">Menu</h5>
+              <ul>
+                <li><span class="text-body-secondary"><a href="#aboutme">Présentation</a></span></li>
+                <li><span class="text-body-secondary"><a href="#links">Réseaux</a></span></li>
+                <li><span class="text-body-secondary"><a href="#article1">Article 1</a></span></li>
+                <li><span class="text-body-secondary"><a href="#article2">Article 2</a></span></li>
+                <li><span class="text-body-secondary"><a href="#article3">Article 3</a></span></li>
+                <li><span class="text-body-secondary"><a href="#newsletter">Newsletter</a></span></li>
+              </ul>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <div class="container-fluid d-flex justify-content-space-between">
+            <img src="/public/img/check-square.svg" alt="checked" id="checked-fav-icon"/>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+      </div>
+      <!-- end of navbar -->
+      <!-- about me -->
+      <div class="col-12 col-xl-3 text-center mt-2">
+        <div>
+          <h2 id="aboutme">A propos de moi</h2>
+          <h6>Ma photo stylée</h6>
+          <img src="/public/img/Capture-portrait.PNG" alt="pictures of me"/>
+          </div>
+        <a href="" class="truncate">Plus de photos de moi</a>
+        <h2 id="links">Quelques liens</h2>
+        <!-- end of about me -->
+        <!-- some links -->
+        <div class="col-12 col-xl-4">
+        </div>
+        <!-- end of some links -->
+        <!-- links -->
+        <div class="col-12 col-xl-4">
+          <div class="links">
+            <a href="https://www.instagram.com/">
+              <h5>
+                <img src="/public/img/instagram.svg" alt="instagram icon" class="icons"/>Instagram
+              </h5>
+            </a>
+            <a href="https://www.linkedin.com/authwall?trk=qf&original_referer=https://www.google.com/&sessionRedirect=https%3A%2F%2Ffr.linkedin.com%2F">
+              <h5>
+                <img src="/public/img/linkedin.svg" alt="linkedin icon" class="icons"/>Linkedin
+              </h5>
+            </a>
+            <a href="https://fr-fr.facebook.com/">
+              <h5>
+                <img src="/public/img/facebook.svg" alt="facebook icon" class="icons"/>Facebook
+              </h5>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- end of links -->
+      <!-- articles 1 -->
+      <div class="col-12 col-xl-6">
+        <div class="mt-2">
+          <article>
+            <h2 id="article1">Un grand titre</h2>
+            <h5>Un sous-titre 08/06/2023</h5>
+            <img src="/public/img/paysage1.jpg" alt="paysage 1" id="landscape1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores veritatis molestiae ipsam beatae nostrum
+              laudantium at placeat. Laboriosam doloremque fuga illo, adipisci corrupti quia rerum ducimus, enim at
+              eveniet vel!</p>
+          </article>
+        </div>
+        <!-- end article 1 -->
+        <!-- article 2 -->
+        <div>
+          <article>
+            <h2 id="article2">Un grand titre</h2>
+            <h5>Un sous-titre 08/06/2023</h5>
+            <img src="/public/img/paysage2.jpg" alt="paysage 2" id="landscape2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores veritatis molestiae ipsam beatae nostrum
+              laudantium at placeat. Laboriosam doloremque fuga illo, adipisci corrupti quia rerum ducimus, enim at
+              eveniet vel!</p>
+          </article>
+        </div>
+        <!-- end article 2 -->
+        <!-- article 3 -->
+        <div>
+          <article>
+            <h2 id="article3">Un grand titre</h2>
+            <h5>Un sous-titre 08/06/2023</h5>
+            <img src="/public/img/paysage3.jpg" alt="paysage 3" id="landscape3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores veritatis molestiae ipsam beatae nostrum
+              laudantium at placeat. Laboriosam doloremque fuga illo, adipisci corrupti quia rerum ducimus, enim at
+              eveniet vel!</p>
+          </article>
+        </div>
+      </div>
+      <!-- end article 3 -->
+      <!-- newsletter -->
+      <div class="row bg-dark text-center text-white pt-3 align-items-center">
+        <div class="col-12 col-xl-12 mb-3" id="newsletter">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Inscription à notre Newsletter</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="name@example.com">
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+          </form>
+        </div>
+      </div>
+      <!-- end newsletter -->
+      <!-- footer link -->
+      <div class="row bg-dark text-center text-white">
+        <div class="col-12 mb-5">
+          <a href="" class="footer-link">Mentions Legales</a>
+          <a href="https://lamanu.fr/" class="footer-link">Site by la Manu</a>
+        </div>
+      </div>
+      <!-- end footer link -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

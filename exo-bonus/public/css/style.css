@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+/* css navbar */
+
+#navbarToggleExternalContent,a{
+    text-decoration: none;
+    color: gray;
+}
+
+#checked-fav-icon{
+    background-color: aliceblue;
+    
+}
+/* end css navbar */
+
+/* about me */
+.truncate{
+    color: gray;
+}
+
+
+/* end about me */
+
+
+/* title links */
+#title-link{
+    text-align: center;
+}
+/* end of title links */
+
+/* links */
+
+
+.icons{
+    block-size: 20px;
+    padding: 0 15px 0 15px;
+}
+
+.links a {
+    color: rgb(101, 101, 101);
+    text-decoration: none;
+    text-align: start;
+}
+
+
+
+/* end links */
+
+/* articles */
+
+
+
+#landscape1{
+    object-fit:cover;
+    width: 100%;
+    height: 30vh;
+}
+
+#landscape2{
+    object-fit:cover;
+    width: 100%;
+    height: 30vh;
+}
+
+#landscape3{
+    object-fit:cover;
+    width: 100%;
+    height: 30vh;
+}
+/* end articles */
+
+/* css footer links */
+
+.footer-link{
+    color: white;
+    text-decoration: none;
+}
+
+.messenger-icon{
+    block-size: 15px;
+    color: white;
+}
+
+article{
+    overflow: hidden;
+}
+
+@media screen and (min-width: 1200px) {
+    #exampleInputEmail1{
+        width: 40vw;
+        margin-left: 27vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .footer-link{
+        padding: 0 20vw 0 20VW;
+    }
+}
